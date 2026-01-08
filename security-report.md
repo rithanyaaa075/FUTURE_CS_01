@@ -12,3 +12,4 @@ Intentionally vulnerable web application (DVWA / OWASP Juice Shop)
 
 ## Summary
 Vulnerabilities such as SQL Injection, XSS, and authentication flaws were identified and documented.
+The application allows unlimited login attempts with weak credentials, making it vulnerable to brute-force attacks. No lockout or rate limiting mechanisms were observed.
